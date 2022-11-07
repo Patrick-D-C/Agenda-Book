@@ -31,7 +31,7 @@ export default function New() {
 
     return (
         <GuestLayout>
-            <Head title="Agenda" />
+            <Head title="Cadastrar Contato" />
             <Box>
                 <Link href="/">
                     <IconButton color="primary">

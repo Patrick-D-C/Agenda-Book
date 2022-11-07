@@ -32,7 +32,7 @@ export default function Edit({ people }) {
 
     return (
         <GuestLayout>
-            <Head title="Agenda" />
+            <Head title="Editar Contato" />
             <Box>
                 <Link href="/">
                     <IconButton color="primary">

@@ -28,7 +28,7 @@ export default function Inicio({ list_people, create_url }) {
 
     return (
         <GuestLayout>
-            <Head title="Agenda" />
+            <Head title="Início" />
             <Box sx={{ textAlign: "center", pb: 5 }}>
                 <Typography variant="h6" component="h1">
                     Bem-vindo a agenda

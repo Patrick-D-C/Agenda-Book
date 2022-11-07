@@ -82,7 +82,7 @@ export default function Show({ people, edit_url, destroy_url }) {
 
     return (
         <GuestLayout>
-            <Head title="Agenda" />
+            <Head title={`${people.name} - Visualizar Contato`} />
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                 <Link href="/">
                     <IconButton color="primary">
