@@ -26,6 +26,7 @@ import {
     MoreVert,
     PhoneIphone,
     Remove,
+    Twitter,
     WhatsApp,
 } from "@mui/icons-material";
 import ContactItemForm from "@/Components/ContactItemForm";
@@ -37,31 +38,43 @@ export default function Show({ people, edit_url, destroy_url }) {
         phone: {
             component: <Call color="info" />,
             label: "Numero",
+            text: "Telefone",
             type: "number",
         },
         cell_number: {
             component: <PhoneIphone color="warning" />,
             type: "number",
+            text: "Celular",
             label: "Numero",
         },
         whatsapp: {
             component: <WhatsApp color="success" />,
             label: "Numero",
+            text: "WhatsApp",
             type: "number",
         },
         email: {
             component: <Email color="info" />,
             label: "E-mail",
+            text: "E-mail",
             type: "email",
         },
         facebook: {
             component: <Facebook color="primary" />,
             label: "Nick",
+            text: "Facebook",
             type: "text",
         },
         instagram: {
             component: <Instagram color="secondary" />,
             label: "Nick",
+            text: "Instagram",
+            type: "text",
+        },
+        twitter: {
+            component: <Twitter color="info" />,
+            label: "username",
+            text: "Twitter",
             type: "text",
         },
     };

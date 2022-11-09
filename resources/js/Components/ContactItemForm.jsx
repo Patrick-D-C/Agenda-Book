@@ -71,7 +71,7 @@ export default function ContactItemForm({
                         >
                             {Object.keys(listIcons).map((value) => (
                                 <MenuItem key={value} value={value}>
-                                    {value}
+                                    {listIcons[value].text}
                                 </MenuItem>
                             ))}
                         </TextField>

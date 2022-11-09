@@ -46,7 +46,7 @@ export default function ContactItem({ contact, listIcons }) {
                 </ListItemAvatar>
                 <ListItemText
                     sx={{ wordBreak: "break-all" }}
-                    primary={contact.name}
+                    primary={listIcons[contact.name].text}
                     secondary={contact.value}
                 />
                 <ListItemAvatar sx={{ minWidth: "auto" }}>
