@@ -1,0 +1,100 @@
+{
+  "resources/js/app.jsx": {
+    "file": "assets/app.d2bc70f1.js",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Inicio.jsx",
+      "resources/js/Pages/People/Edit.jsx",
+      "resources/js/Pages/People/New.jsx",
+      "resources/js/Pages/People/Show.jsx",
+      "resources/js/Pages/Welcome.jsx"
+    ],
+    "css": [
+      "assets/app.a02d9f25.css"
+    ]
+  },
+  "resources/js/Pages/Inicio.jsx": {
+    "file": "assets/Inicio.cb827946.js",
+    "src": "resources/js/Pages/Inicio.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js",
+      "_Add.f76cfd86.js",
+      "_Grid.9dbd5554.js"
+    ]
+  },
+  "_GuestLayout.d7b596df.js": {
+    "file": "assets/GuestLayout.d7b596df.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_Grid.9dbd5554.js": {
+    "file": "assets/Grid.9dbd5554.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js"
+    ]
+  },
+  "_Add.f76cfd86.js": {
+    "file": "assets/Add.f76cfd86.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js"
+    ]
+  },
+  "resources/js/Pages/People/Edit.jsx": {
+    "file": "assets/Edit.313da548.js",
+    "src": "resources/js/Pages/People/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js",
+      "_ArrowBack.0e6595c0.js",
+      "_Grid.9dbd5554.js"
+    ]
+  },
+  "_ArrowBack.0e6595c0.js": {
+    "file": "assets/ArrowBack.0e6595c0.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js"
+    ]
+  },
+  "resources/js/Pages/People/New.jsx": {
+    "file": "assets/New.ff281692.js",
+    "src": "resources/js/Pages/People/New.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js",
+      "_ArrowBack.0e6595c0.js",
+      "_Grid.9dbd5554.js"
+    ]
+  },
+  "resources/js/Pages/People/Show.jsx": {
+    "file": "assets/Show.14b207b0.js",
+    "src": "resources/js/Pages/People/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout.d7b596df.js",
+      "_Add.f76cfd86.js",
+      "_ArrowBack.0e6595c0.js"
+    ]
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome.5ad9b155.js",
+    "src": "resources/js/Pages/Welcome.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.a02d9f25.css",
+    "src": "resources/js/app.css"
+  }
+}
