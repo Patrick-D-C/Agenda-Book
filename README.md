@@ -32,19 +32,28 @@ Tinha como proposito desenvolver uma agenda a onde fosse possivel cadastrar vari
 
 ## Configurando o Ambiente
 
-
 - Acesse a raiz do projeto, faça uma copia do arquivo .env.example e remoneie para .env;
 - Altere os dados de acesso ao Banco de dados conforme for necessario;
-- Crie um novo schema no seu Banco de dados com o mesmo nome que foi informado em "DB_DATABASE" no arquivo anterior;
-- Abra um terminal e navegue até raiz do projeto;
-- Rode os seguintes comandos:
-	- php artisan migrate
-	- php artisan db:seed
-	- php artisan serve.
-	
-- Após rodar os comandos, irá ver no terminar um link para testar o projeto.
 
 
+### Configuração local
+
+	- Crie um novo schema no seu Banco de dados com o mesmo nome que foi informado em "DB_DATABASE" no arquivo anterior;
+	- Abra um terminal e navegue até raiz do projeto;
+	- Rode os seguintes comandos:
+		- php artisan migrate
+		- php artisan db:seed
+		- php artisan serve.
+		
+	- Após rodar os comandos, irá ver no terminar um link para testar o projeto.
+
+### Configuração Docker
+
+	<i>Será necessario ter o docker previamente instalado e configurado.</i>
+
+	- Abra um terminal e navegue até a pasta raiz do sistema
+	- Execute o comando "./bin/sail up -d --build"
+	- Pronto só acessar http://localhost
 
 ## About Laravel
 
